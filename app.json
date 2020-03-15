@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/kind/kind",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e8602e",
+    "navigationBarTitleText": "研分",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon/index-copy.png",
+        "selectedIconPath": "images/icon/index-copy2.png"
+      },
+      {
+        "pagePath": "pages/kind/kind",
+        "text": "分类",
+        "iconPath": "images/icon/course2.png",
+        "selectedIconPath": "images/icon/course.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "images/icon/wodedangxuan.png",
+        "selectedIconPath": "images/icon/wodedangxuan2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

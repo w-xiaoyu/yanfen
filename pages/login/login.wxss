@@ -1,0 +1,52 @@
+/* pages/login/login.wxss */
+.mainlogin{
+  height: 560rpx;
+  width: 560rpx;
+  margin: 234rpx 35rpx 0 35rpx;
+  padding: 0 58rpx;
+  border-radius: 40rpx;
+  box-shadow: 2rpx 0px 40rpx #ccc inset;
+}
+.logo {
+  width: 179rpx;
+  height: 179rpx;
+  border-radius: 50%;
+  box-shadow: 0rpx 1rpx 10rpx red;
+  margin-top: -90rpx;
+  margin-left: 188rpx;
+}
+input {
+  width: 100%;
+  border-bottom: 2rpx solid #ccc;
+  font-size: 26rpx;
+  line-height: 80rpx;
+  margin-top: 30rpx;
+}
+.input-tel {
+  margin-top: 20rpx;
+  /* background: url(/images/icon/) no-repeat; */
+}
+.wxlogin {
+  display: flex;
+  justify-content: center;
+  margin-top: 140rpx;
+}
+.yanzhengma {
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.yanzhengma .left {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    border: 0;
+    letter-spacing: 3px;
+    font-size: 18px;
+    background-color: #ccc;
+    padding: 10rpx;
+    margin-right: 20rpx;
+    color: blue;
+}

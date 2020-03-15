@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view>
+  <view class="mainlogin">
+    <image src="../../images/logo.jpg" class="logo"></image>
+    <input class="input-tel" placeholder="请输入手机号" maxlength="11"/>
+    <input class="input-pwd" placeholder="请输入密码" password/>
+    <input class="input-yzm" placeholder="图形验证码"/>
+    <view class='yanzhengma'>
+        <text class='left'>{{code}}</text>
+        <text class='right' bindtap='huanyizhang'>换一张</text>
+    </view>
+  </view>
+  <view class="wxlogin">
+    <text>微信账号登录</text>
+  </view>
+</view>
